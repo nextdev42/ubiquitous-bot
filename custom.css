@@ -1,0 +1,13 @@
+/* Hide Gradio footer branding */
+footer {
+  display: none !important;
+}
+
+/* Optional: Custom header */
+.gradio-container::before {
+  content: "NextDev Academy Chatbot";
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 10px;
+}
